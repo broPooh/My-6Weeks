@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  My 6Weeks
+
+  Created by bro on 2022/05/12.
+  
+*/
+
+CFBundleDisplayName = "My Diary";
+NSCameraUsageDescription = "Please Access Camera";

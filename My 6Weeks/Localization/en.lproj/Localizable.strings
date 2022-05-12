@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  My 6Weeks
+
+  Created by bro on 2022/05/12.
+  
+*/
+
+"tab_home" = "Home";
+"tab_setting" = "Setting";
+"welcome_text" = "Hello! Nice to meet you";

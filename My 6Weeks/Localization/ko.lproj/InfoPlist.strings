@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  My 6Weeks
+
+  Created by bro on 2022/05/12.
+  
+*/
+
+CFBundleDisplayName = "나의 일기장";
+NSCameraUsageDescription = "카메라 권한을 허용해주세요";

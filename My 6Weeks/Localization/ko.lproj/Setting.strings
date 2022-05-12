@@ -1,0 +1,11 @@
+/* 
+  Setting.strings
+  My 6Weeks
+
+  Created by bro on 2022/05/12.
+  
+*/
+
+"version" = "1.0.0";
+"data_backup" = "백업하기";
+"data_restore" = "복구하기";
