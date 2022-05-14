@@ -35,6 +35,14 @@
 		1B63673C282CB79C00172A1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B63673E282CB79C00172A1A /* InfoPlist.strings */; };
 		1B636742282CB85C00172A1A /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B636741282CB85C00172A1A /* String+Extension.swift */; };
 		1B636744282CB8F000172A1A /* LocalizableStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B636743282CB8F000172A1A /* LocalizableStrings.swift */; };
+		1B636746282FF25000172A1A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B636745282FF25000172A1A /* Home.storyboard */; };
+		1B636748282FF25900172A1A /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B636747282FF25900172A1A /* Calendar.storyboard */; };
+		1B63674A282FF26500172A1A /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B636749282FF26500172A1A /* Setting.storyboard */; };
+		1B63674C282FF27200172A1A /* Content.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B63674B282FF27200172A1A /* Content.storyboard */; };
+		1B63674F282FF2B400172A1A /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B63674E282FF2B400172A1A /* Search.storyboard */; };
+		1B636751282FF2C800172A1A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B636750282FF2C800172A1A /* SearchViewController.swift */; };
+		1B636753282FF2DA00172A1A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B636752282FF2DA00172A1A /* HomeViewController.swift */; };
+		1B636755282FF30300172A1A /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B636754282FF30300172A1A /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +110,14 @@
 		1B636740282CB79D00172A1A /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1B636741282CB85C00172A1A /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		1B636743282CB8F000172A1A /* LocalizableStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableStrings.swift; sourceTree = "<group>"; };
+		1B636745282FF25000172A1A /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		1B636747282FF25900172A1A /* Calendar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calendar.storyboard; sourceTree = "<group>"; };
+		1B636749282FF26500172A1A /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		1B63674B282FF27200172A1A /* Content.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Content.storyboard; sourceTree = "<group>"; };
+		1B63674E282FF2B400172A1A /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		1B636750282FF2C800172A1A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		1B636752282FF2DA00172A1A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1B636754282FF30300172A1A /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,8 +167,10 @@
 				1B6366F7282CA24400172A1A /* Font */,
 				1B6366E3282CA1DD00172A1A /* AppDelegate.swift */,
 				1B6366E5282CA1DD00172A1A /* SceneDelegate.swift */,
+				1B63674D282FF27A00172A1A /* Storyboard */,
 				1B6366E7282CA1DD00172A1A /* ViewController.swift */,
 				1B6366E9282CA1DD00172A1A /* Main.storyboard */,
+				1B636756282FF31D00172A1A /* ViewController */,
 				1B6366EC282CA1DF00172A1A /* Assets.xcassets */,
 				1B6366EE282CA1DF00172A1A /* LaunchScreen.storyboard */,
 				1B6366F1282CA1DF00172A1A /* Info.plist */,
@@ -214,6 +232,28 @@
 				1B636743282CB8F000172A1A /* LocalizableStrings.swift */,
 			);
 			path = Localization;
+			sourceTree = "<group>";
+		};
+		1B63674D282FF27A00172A1A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1B636745282FF25000172A1A /* Home.storyboard */,
+				1B636747282FF25900172A1A /* Calendar.storyboard */,
+				1B63674E282FF2B400172A1A /* Search.storyboard */,
+				1B636749282FF26500172A1A /* Setting.storyboard */,
+				1B63674B282FF27200172A1A /* Content.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		1B636756282FF31D00172A1A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1B636750282FF2C800172A1A /* SearchViewController.swift */,
+				1B636752282FF2DA00172A1A /* HomeViewController.swift */,
+				1B636754282FF30300172A1A /* AddViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,18 +342,23 @@
 				1B636709282CA2BE00172A1A /* SCDream2.otf in Resources */,
 				1B636703282CA2BE00172A1A /* SCDream6.otf in Resources */,
 				1B636702282CA2BE00172A1A /* SCDream7.otf in Resources */,
+				1B636748282FF25900172A1A /* Calendar.storyboard in Resources */,
 				1B6366F0282CA1DF00172A1A /* LaunchScreen.storyboard in Resources */,
+				1B63674A282FF26500172A1A /* Setting.storyboard in Resources */,
 				1B63673C282CB79C00172A1A /* InfoPlist.strings in Resources */,
 				1B636708282CA2BE00172A1A /* SCDream3.otf in Resources */,
 				1B636706282CA2BE00172A1A /* SCDream1.otf in Resources */,
 				1B6366ED282CA1DF00172A1A /* Assets.xcassets in Resources */,
 				1B636707282CA2BE00172A1A /* SCDream5.otf in Resources */,
+				1B63674C282FF27200172A1A /* Content.storyboard in Resources */,
 				1B636704282CA2BE00172A1A /* SCDream9.otf in Resources */,
 				1B63672E282CB51F00172A1A /* Localizable.strings in Resources */,
+				1B63674F282FF2B400172A1A /* Search.storyboard in Resources */,
 				1B636701282CA2BE00172A1A /* SCDream8.otf in Resources */,
 				1B636735282CB63F00172A1A /* Setting.strings in Resources */,
 				1B636705282CA2BE00172A1A /* SCDream4.otf in Resources */,
 				1B6366EB282CA1DD00172A1A /* Main.storyboard in Resources */,
+				1B636746282FF25000172A1A /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,10 +377,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B636755282FF30300172A1A /* AddViewController.swift in Sources */,
 				1B6366E8282CA1DD00172A1A /* ViewController.swift in Sources */,
 				1B6366E4282CA1DD00172A1A /* AppDelegate.swift in Sources */,
+				1B636751282FF2C800172A1A /* SearchViewController.swift in Sources */,
 				1B636744282CB8F000172A1A /* LocalizableStrings.swift in Sources */,
 				1B63671F282CABF900172A1A /* rfrrg.intentdefinition in Sources */,
+				1B636753282FF2DA00172A1A /* HomeViewController.swift in Sources */,
 				1B63670C282CA5F700172A1A /* UIFont+Extension.swift in Sources */,
 				1B636742282CB85C00172A1A /* String+Extension.swift in Sources */,
 				1B6366E6282CA1DD00172A1A /* SceneDelegate.swift in Sources */,
