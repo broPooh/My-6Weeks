@@ -162,6 +162,7 @@
 		1B6366E2282CA1DD00172A1A /* My 6Weeks */ = {
 			isa = PBXGroup;
 			children = (
+				1B93AFBD28312E3300D1F2D3 /* Consts */,
 				1B63672B282CB4E200172A1A /* Localization */,
 				1B63670A282CA5D700172A1A /* Extension */,
 				1B6366F7282CA24400172A1A /* Font */,
@@ -254,6 +255,13 @@
 				1B636754282FF30300172A1A /* AddViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1B93AFBD28312E3300D1F2D3 /* Consts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Consts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
