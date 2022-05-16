@@ -43,6 +43,10 @@
 		1B636751282FF2C800172A1A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B636750282FF2C800172A1A /* SearchViewController.swift */; };
 		1B636753282FF2DA00172A1A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B636752282FF2DA00172A1A /* HomeViewController.swift */; };
 		1B636755282FF30300172A1A /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B636754282FF30300172A1A /* AddViewController.swift */; };
+		1B93AFC028313A8500D1F2D3 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B93AFBE28313A8500D1F2D3 /* SearchTableViewCell.swift */; };
+		1B93AFC128313A8500D1F2D3 /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B93AFBF28313A8500D1F2D3 /* SearchTableViewCell.xib */; };
+		1B93AFC32831E92A00D1F2D3 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B93AFC22831E92A00D1F2D3 /* Const.swift */; };
+		1B93AFC52831E93F00D1F2D3 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B93AFC42831E93F00D1F2D3 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +122,10 @@
 		1B636750282FF2C800172A1A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		1B636752282FF2DA00172A1A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1B636754282FF30300172A1A /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		1B93AFBE28313A8500D1F2D3 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		1B93AFBF28313A8500D1F2D3 /* SearchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
+		1B93AFC22831E92A00D1F2D3 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		1B93AFC42831E93F00D1F2D3 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +178,8 @@
 				1B6366E5282CA1DD00172A1A /* SceneDelegate.swift */,
 				1B63674D282FF27A00172A1A /* Storyboard */,
 				1B6366E7282CA1DD00172A1A /* ViewController.swift */,
+				1B93AFBE28313A8500D1F2D3 /* SearchTableViewCell.swift */,
+				1B93AFBF28313A8500D1F2D3 /* SearchTableViewCell.xib */,
 				1B6366E9282CA1DD00172A1A /* Main.storyboard */,
 				1B636756282FF31D00172A1A /* ViewController */,
 				1B6366EC282CA1DF00172A1A /* Assets.xcassets */,
@@ -260,6 +270,8 @@
 		1B93AFBD28312E3300D1F2D3 /* Consts */ = {
 			isa = PBXGroup;
 			children = (
+				1B93AFC22831E92A00D1F2D3 /* Const.swift */,
+				1B93AFC42831E93F00D1F2D3 /* CustomCell.swift */,
 			);
 			path = Consts;
 			sourceTree = "<group>";
@@ -358,6 +370,7 @@
 				1B636706282CA2BE00172A1A /* SCDream1.otf in Resources */,
 				1B6366ED282CA1DF00172A1A /* Assets.xcassets in Resources */,
 				1B636707282CA2BE00172A1A /* SCDream5.otf in Resources */,
+				1B93AFC128313A8500D1F2D3 /* SearchTableViewCell.xib in Resources */,
 				1B63674C282FF27200172A1A /* Content.storyboard in Resources */,
 				1B636704282CA2BE00172A1A /* SCDream9.otf in Resources */,
 				1B63672E282CB51F00172A1A /* Localizable.strings in Resources */,
@@ -386,9 +399,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B636755282FF30300172A1A /* AddViewController.swift in Sources */,
+				1B93AFC52831E93F00D1F2D3 /* CustomCell.swift in Sources */,
 				1B6366E8282CA1DD00172A1A /* ViewController.swift in Sources */,
 				1B6366E4282CA1DD00172A1A /* AppDelegate.swift in Sources */,
 				1B636751282FF2C800172A1A /* SearchViewController.swift in Sources */,
+				1B93AFC028313A8500D1F2D3 /* SearchTableViewCell.swift in Sources */,
+				1B93AFC32831E92A00D1F2D3 /* Const.swift in Sources */,
 				1B636744282CB8F000172A1A /* LocalizableStrings.swift in Sources */,
 				1B63671F282CABF900172A1A /* rfrrg.intentdefinition in Sources */,
 				1B636753282FF2DA00172A1A /* HomeViewController.swift in Sources */,

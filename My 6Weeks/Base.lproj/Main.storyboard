@@ -75,7 +75,6 @@
         <!--홈-->
         <scene sceneID="wf9-V0-f3o">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2SQ-lV-G2t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="CnF-RU-AbB" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="홈" image="house" catalog="system" id="Fkk-xL-Nc2"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="yCI-QM-uI0">
@@ -86,6 +85,7 @@
                         <segue destination="eqF-rc-aqe" kind="relationship" relationship="rootViewController" id="L3n-BC-j8v"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2SQ-lV-G2t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2793" y="-1036"/>
         </scene>
@@ -102,7 +102,6 @@
         <!--검색-->
         <scene sceneID="OFi-Pt-4If">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hT8-7V-TGc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="yt3-jl-wTP" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="검색" image="magnifyingglass" catalog="system" id="MdA-v1-DWu"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="4a2-OB-b8a">
@@ -113,6 +112,7 @@
                         <segue destination="RyX-C8-wM3" kind="relationship" relationship="rootViewController" id="blB-Ut-fkq"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hT8-7V-TGc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2845" y="-290"/>
         </scene>
@@ -129,7 +129,6 @@
         <!--캘린더-->
         <scene sceneID="tpk-dt-QZL">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="VRW-m0-5ib" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="waP-pU-2B4" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="캘린더" image="calendar" catalog="system" id="rD9-Di-sdI"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="vbP-ok-gyV">
@@ -140,6 +139,7 @@
                         <segue destination="yzb-sS-QAu" kind="relationship" relationship="rootViewController" id="2p9-mN-EBd"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VRW-m0-5ib" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2845" y="474"/>
         </scene>
@@ -156,7 +156,6 @@
         <!--설정-->
         <scene sceneID="Yjq-xR-fAr">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hye-bD-RFV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="va2-Uk-Bpj" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="설정" image="gearshape" catalog="system" id="oFg-J8-EnP"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="OQq-8D-6Nv">
@@ -167,6 +166,7 @@
                         <segue destination="efA-XF-O1N" kind="relationship" relationship="rootViewController" id="U9i-HN-1Of"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hye-bD-RFV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2845" y="1244"/>
         </scene>
