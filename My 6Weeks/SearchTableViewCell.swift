@@ -17,11 +17,19 @@ class SearchTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
+        imageViewConfig()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
+        selectionStyle = .none
+    }
+    
+    func imageViewConfig() {
+        diaryImageView.backgroundColor = .blue
+        diaryImageView.layer.cornerRadius = 10
+        diaryImageView.clipsToBounds = true
     }
     
 }
