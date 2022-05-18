@@ -51,6 +51,8 @@
 		1B9BB4D02831F79800CA4E44 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 1B9BB4CF2831F79800CA4E44 /* Realm */; };
 		1B9BB4D22831F79800CA4E44 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1B9BB4D12831F79800CA4E44 /* RealmSwift */; };
 		1B9BB4D52831F82000CA4E44 /* RealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9BB4D42831F82000CA4E44 /* RealmModel.swift */; };
+		1B9BB4E72833417900CA4E44 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9BB4E62833417900CA4E44 /* SettingViewController.swift */; };
+		1B9BB4EA2833445900CA4E44 /* Zip in Frameworks */ = {isa = PBXBuildFile; productRef = 1B9BB4E92833445900CA4E44 /* Zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +134,7 @@
 		1B93AFC82831ECA800D1F2D3 /* SearchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
 		1B9BB4CC2831EDC000CA4E44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1B9BB4D42831F82000CA4E44 /* RealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModel.swift; sourceTree = "<group>"; };
+		1B9BB4E62833417900CA4E44 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B9BB4EA2833445900CA4E44 /* Zip in Frameworks */,
 				1B9BB4D22831F79800CA4E44 /* RealmSwift in Frameworks */,
 				1B9BB4D02831F79800CA4E44 /* Realm in Frameworks */,
 			);
@@ -272,6 +276,7 @@
 				1B636750282FF2C800172A1A /* SearchViewController.swift */,
 				1B636752282FF2DA00172A1A /* HomeViewController.swift */,
 				1B636754282FF30300172A1A /* AddViewController.swift */,
+				1B9BB4E62833417900CA4E44 /* SettingViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -315,6 +320,7 @@
 			packageProductDependencies = (
 				1B9BB4CF2831F79800CA4E44 /* Realm */,
 				1B9BB4D12831F79800CA4E44 /* RealmSwift */,
+				1B9BB4E92833445900CA4E44 /* Zip */,
 			);
 			productName = "My 6Weeks";
 			productReference = 1B6366E0282CA1DD00172A1A /* My 6Weeks.app */;
@@ -368,6 +374,7 @@
 			mainGroup = 1B6366D7282CA1DD00172A1A;
 			packageReferences = (
 				1B9BB4CE2831F79800CA4E44 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				1B9BB4E82833445900CA4E44 /* XCRemoteSwiftPackageReference "Zip" */,
 			);
 			productRefGroup = 1B6366E1282CA1DD00172A1A /* Products */;
 			projectDirPath = "";
@@ -426,6 +433,7 @@
 				1B636755282FF30300172A1A /* AddViewController.swift in Sources */,
 				1B93AFC52831E93F00D1F2D3 /* CustomCell.swift in Sources */,
 				1B6366E8282CA1DD00172A1A /* TestViewController.swift in Sources */,
+				1B9BB4E72833417900CA4E44 /* SettingViewController.swift in Sources */,
 				1B6366E4282CA1DD00172A1A /* AppDelegate.swift in Sources */,
 				1B9BB4CD2831EDC000CA4E44 /* ViewController.swift in Sources */,
 				1B636751282FF2C800172A1A /* SearchViewController.swift in Sources */,
@@ -781,6 +789,14 @@
 				minimumVersion = 10.18.0;
 			};
 		};
+		1B9BB4E82833445900CA4E44 /* XCRemoteSwiftPackageReference "Zip" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marmelroy/Zip.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -793,6 +809,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 1B9BB4CE2831F79800CA4E44 /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = RealmSwift;
+		};
+		1B9BB4E92833445900CA4E44 /* Zip */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1B9BB4E82833445900CA4E44 /* XCRemoteSwiftPackageReference "Zip" */;
+			productName = Zip;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
