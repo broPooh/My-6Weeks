@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1B31101D2836019A00699A47 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 1B31101C2836019A00699A47 /* FSCalendar */; };
+		1B31101F2836035100699A47 /* ContentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B31101E2836035100699A47 /* ContentDetailViewController.swift */; };
+		1B31102128360DF400699A47 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B31102028360DF400699A47 /* DatePickerViewController.swift */; };
+		1B3110232836142800699A47 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3110222836142800699A47 /* CalendarViewController.swift */; };
 		1B6366E4282CA1DD00172A1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6366E3282CA1DD00172A1A /* AppDelegate.swift */; };
 		1B6366E6282CA1DD00172A1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6366E5282CA1DD00172A1A /* SceneDelegate.swift */; };
 		1B6366E8282CA1DD00172A1A /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6366E7282CA1DD00172A1A /* TestViewController.swift */; };
@@ -81,6 +84,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1B31101E2836035100699A47 /* ContentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailViewController.swift; sourceTree = "<group>"; };
+		1B31102028360DF400699A47 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		1B3110222836142800699A47 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		1B6366E0282CA1DD00172A1A /* My 6Weeks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My 6Weeks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B6366E3282CA1DD00172A1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B6366E5282CA1DD00172A1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -277,6 +283,9 @@
 			children = (
 				1B636750282FF2C800172A1A /* SearchViewController.swift */,
 				1B636752282FF2DA00172A1A /* HomeViewController.swift */,
+				1B31101E2836035100699A47 /* ContentDetailViewController.swift */,
+				1B3110222836142800699A47 /* CalendarViewController.swift */,
+				1B31102028360DF400699A47 /* DatePickerViewController.swift */,
 				1B636754282FF30300172A1A /* AddViewController.swift */,
 				1B9BB4E62833417900CA4E44 /* SettingViewController.swift */,
 			);
@@ -436,12 +445,15 @@
 			files = (
 				1B636755282FF30300172A1A /* AddViewController.swift in Sources */,
 				1B93AFC52831E93F00D1F2D3 /* CustomCell.swift in Sources */,
+				1B31102128360DF400699A47 /* DatePickerViewController.swift in Sources */,
 				1B6366E8282CA1DD00172A1A /* TestViewController.swift in Sources */,
 				1B9BB4E72833417900CA4E44 /* SettingViewController.swift in Sources */,
+				1B31101F2836035100699A47 /* ContentDetailViewController.swift in Sources */,
 				1B6366E4282CA1DD00172A1A /* AppDelegate.swift in Sources */,
 				1B9BB4CD2831EDC000CA4E44 /* ViewController.swift in Sources */,
 				1B636751282FF2C800172A1A /* SearchViewController.swift in Sources */,
 				1B93AFC32831E92A00D1F2D3 /* Const.swift in Sources */,
+				1B3110232836142800699A47 /* CalendarViewController.swift in Sources */,
 				1B636744282CB8F000172A1A /* LocalizableStrings.swift in Sources */,
 				1B63671F282CABF900172A1A /* rfrrg.intentdefinition in Sources */,
 				1B93AFC92831ECA800D1F2D3 /* SearchTableViewCell.swift in Sources */,
@@ -650,6 +662,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53Z24SDX77;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "My 6Weeks/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -679,6 +692,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53Z24SDX77;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "My 6Weeks/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -707,6 +721,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53Z24SDX77;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = rfrrg/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = rfrrg;
@@ -733,6 +748,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53Z24SDX77;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = rfrrg/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = rfrrg;

@@ -10,6 +10,9 @@ import Foundation
 extension Const {
     struct ViewController {
         static let AddViewController = "AddViewController"
+        static let ContentDetailViewController = "ContentDetailViewController"
+        static let DatePickerViewController = "DatePickerViewController"
+        static let CalendarViewController = "CalendarViewController"
     }
 }
 

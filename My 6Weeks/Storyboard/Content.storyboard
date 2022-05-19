@@ -38,6 +38,10 @@
                                 </constraints>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="2022.05.15"/>
+                                <connections>
+                                    <action selector="dateButtonClicked:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="VOt-SG-P6H"/>
+                                    <action selector="dateButtonClicked:" destination="jUJ-Lc-lMn" eventType="touchUpInside" id="b2T-CH-lzd"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" borderStyle="roundedRect" placeholder="일기내용" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nub-h8-YrK">
                                 <rect key="frame" x="20" y="618" width="374" height="224"/>
@@ -71,8 +75,110 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="jUJ-Lc-lMn" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="674" y="119"/>
+        </scene>
+        <!--Content Detail View Controller-->
+        <scene sceneID="GzR-hc-qtj">
+            <objects>
+                <viewController storyboardIdentifier="ContentDetailViewController" id="Xl4-C6-ez2" customClass="ContentDetailViewController" customModule="My_6Weeks" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y4E-an-pNV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="i6E-f2-knR">
+                                <rect key="frame" x="20" y="64" width="374" height="187"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="i6E-f2-knR" secondAttribute="height" multiplier="2:1" id="ekY-L8-ewj"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WlR-Gj-5Ws">
+                                <rect key="frame" x="20" y="271" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="qO2-TN-X7i"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ed-9K-f1J">
+                                <rect key="frame" x="20" y="341" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="hEW-UJ-46o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iqf-9q-Ezi">
+                                <rect key="frame" x="20" y="411" width="374" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="140" id="XbY-Ef-r3l"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bXB-v5-Ofo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="i6E-f2-knR" firstAttribute="top" secondItem="bXB-v5-Ofo" secondAttribute="top" constant="20" id="2M7-cZ-MKr"/>
+                            <constraint firstItem="Iqf-9q-Ezi" firstAttribute="leading" secondItem="bXB-v5-Ofo" secondAttribute="leading" constant="20" id="2Zb-k9-j6Q"/>
+                            <constraint firstItem="WlR-Gj-5Ws" firstAttribute="top" secondItem="i6E-f2-knR" secondAttribute="bottom" constant="20" id="FtT-Mh-oGd"/>
+                            <constraint firstItem="bXB-v5-Ofo" firstAttribute="trailing" secondItem="i6E-f2-knR" secondAttribute="trailing" constant="20" id="Lq2-Cd-4yJ"/>
+                            <constraint firstItem="i6E-f2-knR" firstAttribute="leading" secondItem="bXB-v5-Ofo" secondAttribute="leading" constant="20" id="M0A-sT-oNX"/>
+                            <constraint firstItem="2ed-9K-f1J" firstAttribute="top" secondItem="WlR-Gj-5Ws" secondAttribute="bottom" constant="20" id="MHG-Nd-WAD"/>
+                            <constraint firstItem="WlR-Gj-5Ws" firstAttribute="trailing" secondItem="i6E-f2-knR" secondAttribute="trailing" id="SNW-0w-oWM"/>
+                            <constraint firstItem="bXB-v5-Ofo" firstAttribute="trailing" secondItem="2ed-9K-f1J" secondAttribute="trailing" constant="20" id="XKm-MM-l3s"/>
+                            <constraint firstItem="2ed-9K-f1J" firstAttribute="trailing" secondItem="i6E-f2-knR" secondAttribute="trailing" id="bXK-9M-6Me"/>
+                            <constraint firstItem="2ed-9K-f1J" firstAttribute="leading" secondItem="bXB-v5-Ofo" secondAttribute="leading" constant="20" id="r5q-jj-zwS"/>
+                            <constraint firstItem="bXB-v5-Ofo" firstAttribute="trailing" secondItem="WlR-Gj-5Ws" secondAttribute="trailing" constant="20" id="roY-fB-wok"/>
+                            <constraint firstItem="WlR-Gj-5Ws" firstAttribute="leading" secondItem="bXB-v5-Ofo" secondAttribute="leading" constant="20" id="shT-fB-3bO"/>
+                            <constraint firstItem="bXB-v5-Ofo" firstAttribute="trailing" secondItem="Iqf-9q-Ezi" secondAttribute="trailing" constant="20" id="t6h-PF-aYe"/>
+                            <constraint firstItem="Iqf-9q-Ezi" firstAttribute="top" secondItem="2ed-9K-f1J" secondAttribute="bottom" constant="20" id="zZs-4b-rOp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="diaryContentLabel" destination="Iqf-9q-Ezi" id="Ing-Nw-K6d"/>
+                        <outlet property="diaryDateLabel" destination="2ed-9K-f1J" id="Yuz-Gt-MD6"/>
+                        <outlet property="diaryImageView" destination="i6E-f2-knR" id="R9v-Ou-1KF"/>
+                        <outlet property="diaryTitleLabel" destination="WlR-Gj-5Ws" id="0Bb-Bm-OLM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vuv-XE-KVl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1469.5652173913045" y="118.52678571428571"/>
+        </scene>
+        <!--Date Picker View Controller-->
+        <scene sceneID="3Cg-om-Qay">
+            <objects>
+                <viewController storyboardIdentifier="DatePickerViewController" id="PyA-36-nsp" customClass="DatePickerViewController" customModule="My_6Weeks" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uRV-Ga-2f6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="VXj-rf-qGY">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </datePicker>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CKX-Qb-Fvu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="VXj-rf-qGY" firstAttribute="top" secondItem="CKX-Qb-Fvu" secondAttribute="top" id="Qx6-Cd-Vwc"/>
+                            <constraint firstItem="CKX-Qb-Fvu" firstAttribute="bottom" secondItem="VXj-rf-qGY" secondAttribute="bottom" id="eD5-oB-gbx"/>
+                            <constraint firstItem="VXj-rf-qGY" firstAttribute="leading" secondItem="uRV-Ga-2f6" secondAttribute="leading" id="kzo-8J-awb"/>
+                            <constraint firstItem="CKX-Qb-Fvu" firstAttribute="trailing" secondItem="VXj-rf-qGY" secondAttribute="trailing" id="yow-ec-vPh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="datePicker" destination="VXj-rf-qGY" id="hK4-11-dcR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qBz-5D-qRJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2269" y="106"/>
         </scene>
     </scenes>
     <resources>

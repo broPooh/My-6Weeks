@@ -9,6 +9,8 @@ import UIKit
 import RealmSwift
 
 class SearchViewController: UIViewController {
+    
+    let formatter = DateFormatter()
 
     @IBOutlet weak var searchTableView: UITableView!
     
@@ -25,6 +27,8 @@ class SearchViewController: UIViewController {
         
         searchTableViewConfig()
         //렘 파일 위치 확인
+        formatter.dateFormat = "yyyy년 MM월 dd일"
+        
         print("Realm is Located at:", localRealm.configuration.fileURL!)
     }
     
@@ -112,7 +116,7 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
                 
         cell.diaryTitleLabel.text = diary.title
         cell.diaryContentLabel.text = diary.content
-        cell.diaryDateLabel.text = "\(diary.writeDate)"
+        cell.diaryDateLabel.text = formatter.string(from: diary.writeDate)
         cell.diaryImageView.image = loadImageFromDocumentDirectory(imageName: "\(diary._id).png")
         
         return cell

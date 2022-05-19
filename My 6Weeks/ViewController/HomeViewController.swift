@@ -38,4 +38,8 @@ class HomeViewController: UIViewController {
         self.present(nav, animated: true, completion: nil)
     }
 
+    @IBAction func dateButtonClicked(_ sender: UIButton) {
+        
+        
+    }
 }
