@@ -165,7 +165,6 @@
 		1B6366D7282CA1DD00172A1A = {
 			isa = PBXGroup;
 			children = (
-				1B9BB4D32831F81300CA4E44 /* Realm */,
 				1B6366E2282CA1DD00172A1A /* My 6Weeks */,
 				1B636717282CABF200172A1A /* rfrrg */,
 				1B636712282CABF200172A1A /* Frameworks */,
@@ -185,6 +184,7 @@
 		1B6366E2282CA1DD00172A1A /* My 6Weeks */ = {
 			isa = PBXGroup;
 			children = (
+				1B9BB4D32831F81300CA4E44 /* Realm */,
 				1B93AFC72831ECA800D1F2D3 /* SearchTableViewCell.swift */,
 				1B93AFC82831ECA800D1F2D3 /* SearchTableViewCell.xib */,
 				1B93AFBD28312E3300D1F2D3 /* Consts */,
