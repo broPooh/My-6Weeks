@@ -11,6 +11,8 @@
 		1B31101F2836035100699A47 /* ContentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B31101E2836035100699A47 /* ContentDetailViewController.swift */; };
 		1B31102128360DF400699A47 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B31102028360DF400699A47 /* DatePickerViewController.swift */; };
 		1B3110232836142800699A47 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3110222836142800699A47 /* CalendarViewController.swift */; };
+		1B311026283666DB00699A47 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B311025283666DB00699A47 /* HomeTableViewCell.swift */; };
+		1B3110282836680600699A47 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3110272836680600699A47 /* HomeCollectionViewCell.swift */; };
 		1B6366E4282CA1DD00172A1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6366E3282CA1DD00172A1A /* AppDelegate.swift */; };
 		1B6366E6282CA1DD00172A1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6366E5282CA1DD00172A1A /* SceneDelegate.swift */; };
 		1B6366E8282CA1DD00172A1A /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6366E7282CA1DD00172A1A /* TestViewController.swift */; };
@@ -87,6 +89,8 @@
 		1B31101E2836035100699A47 /* ContentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailViewController.swift; sourceTree = "<group>"; };
 		1B31102028360DF400699A47 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
 		1B3110222836142800699A47 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		1B311025283666DB00699A47 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		1B3110272836680600699A47 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		1B6366E0282CA1DD00172A1A /* My 6Weeks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My 6Weeks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B6366E3282CA1DD00172A1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B6366E5282CA1DD00172A1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -168,6 +172,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B311024283666B700699A47 /* CustomViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1B93AFC72831ECA800D1F2D3 /* SearchTableViewCell.swift */,
+				1B93AFC82831ECA800D1F2D3 /* SearchTableViewCell.xib */,
+				1B311025283666DB00699A47 /* HomeTableViewCell.swift */,
+				1B3110272836680600699A47 /* HomeCollectionViewCell.swift */,
+			);
+			path = CustomViewCell;
+			sourceTree = "<group>";
+		};
 		1B6366D7282CA1DD00172A1A = {
 			isa = PBXGroup;
 			children = (
@@ -190,9 +205,8 @@
 		1B6366E2282CA1DD00172A1A /* My 6Weeks */ = {
 			isa = PBXGroup;
 			children = (
+				1B311024283666B700699A47 /* CustomViewCell */,
 				1B9BB4D32831F81300CA4E44 /* Realm */,
-				1B93AFC72831ECA800D1F2D3 /* SearchTableViewCell.swift */,
-				1B93AFC82831ECA800D1F2D3 /* SearchTableViewCell.xib */,
 				1B93AFBD28312E3300D1F2D3 /* Consts */,
 				1B63672B282CB4E200172A1A /* Localization */,
 				1B63670A282CA5D700172A1A /* Extension */,
@@ -449,6 +463,7 @@
 				1B6366E8282CA1DD00172A1A /* TestViewController.swift in Sources */,
 				1B9BB4E72833417900CA4E44 /* SettingViewController.swift in Sources */,
 				1B31101F2836035100699A47 /* ContentDetailViewController.swift in Sources */,
+				1B311026283666DB00699A47 /* HomeTableViewCell.swift in Sources */,
 				1B6366E4282CA1DD00172A1A /* AppDelegate.swift in Sources */,
 				1B9BB4CD2831EDC000CA4E44 /* ViewController.swift in Sources */,
 				1B636751282FF2C800172A1A /* SearchViewController.swift in Sources */,
@@ -456,6 +471,7 @@
 				1B3110232836142800699A47 /* CalendarViewController.swift in Sources */,
 				1B636744282CB8F000172A1A /* LocalizableStrings.swift in Sources */,
 				1B63671F282CABF900172A1A /* rfrrg.intentdefinition in Sources */,
+				1B3110282836680600699A47 /* HomeCollectionViewCell.swift in Sources */,
 				1B93AFC92831ECA800D1F2D3 /* SearchTableViewCell.swift in Sources */,
 				1B636753282FF2DA00172A1A /* HomeViewController.swift in Sources */,
 				1B63670C282CA5F700172A1A /* UIFont+Extension.swift in Sources */,
@@ -670,7 +686,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -700,7 +716,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

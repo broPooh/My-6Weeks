@@ -10,6 +10,8 @@ import Foundation
 extension Const {
     struct CustomCell {
         static let SearchTableViewCell = "SearchTableViewCell"
+        static let HomeTableViewCell = "HomeTableViewCell"
+        static let HomeCollectionViewCell = "HomeCollectionViewCell"
     }
 }
 

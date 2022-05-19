@@ -114,6 +114,8 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
         
         let diary = tasks[indexPath.row]
                 
+        cell.configureCell(diary: diary)
+        
         cell.diaryTitleLabel.text = diary.title
         cell.diaryContentLabel.text = diary.content
         cell.diaryDateLabel.text = formatter.string(from: diary.writeDate)

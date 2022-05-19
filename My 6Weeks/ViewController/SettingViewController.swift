@@ -76,8 +76,6 @@ class SettingViewController: UIViewController {
         //4. 백업할 파일에 대한 URL 배열
         var urlPaths = [URL]()
         
-        
-        
         //1. 도큐먼트 폴더 위치
         if let path = documentDirectoryPath() {
             //2. 백업하고자 하는 파일 확인
@@ -126,7 +124,7 @@ extension SettingViewController: UIDocumentPickerDelegate {
         print(#function)
     }
     
-    func documentPicker(_ controller: UIDocumentPickerViewController, didPickDocumenstAt urls: [URL]) {
+    func documentPicker(_ controller: UIDocumentPickerViewController, didPickDocumentsAt urls: [URL]) {
         print(#function)
         
         // 복구 -2. 선택한 파일에 대한 경로 가져오기
