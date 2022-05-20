@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        UILabel.appearance().textColor = .black
+        UILabel.appearance().textColor = .lightGray
         UILabel.appearance().font = .boldSystemFont(ofSize: 20)
         UILabel.appearance().textAlignment = .center
         
